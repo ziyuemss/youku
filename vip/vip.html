@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vip</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vip.css"/>
+</head>
+<body>
+<!-- header -->
+	<header>
+		
+			<div class="swiper-container banners">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/banner.png" class="banner"/></div>
+			        <div class="swiper-slide"><img src="img/banner.png" class="banner"/></div>
+			        <div class="swiper-slide"><img src="img/banner.png" class="banner"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			    
+			    <!-- 如果需要滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+			</div>		
+		<img src="img/img1.png" class="img1"/>
+		<img src="img/search.png" class="search"/>
+		<div class="bk">
+			<div class="bk_one">
+				<div class="header_two">
+					<div class="txs">
+						<img src="img/tx.png" class="tx"/>
+						<div class="txt">
+							<div class="hh">
+								<span>H夕C夕</span>
+								<img src="img/km.png"/>
+							</div>
+							<span class="lv">酷喵VIP<span class="time">2019-02-09</span>到期</span>
+						</div>
+					</div>
+					<div class="qd">
+						<span>续费</span>
+					</div>
+				</div>
+				<div class="bk_two">
+					<img src="img/v.png"/>
+					<h3>我的权益专区</h3>
+					<img src="img/jts.png"/s>
+				</div>
+			<div class="searchs">
+				<a href="#"><img src="img/p1.png"/><span>年卡六折</span></a>
+				<a href="#"><img src="img/p1.png"/><span>限时抽奖</span></a>
+				<a href="#"><img src="img/p1.png"/><span>观影卷(2)</span></a>
+				<a href="#"><img src="img/p1.png"/><span>卡卷包</span></a>
+			</div>
+			</div>
+		</div>
+	</header>
+<!-- section -->
+	<section>
+		<nav>
+			<a href="#">精选</a>
+			<a href="#">壹周刊</a>
+			<a href="#">俱乐部</a>
+			<a href="#">电影</a>
+			<a href="#">剧集</a>
+			<a href="#">短视频</a>
+		</nav>
+		<div class="qgs">
+			<img src="img/qg.png"/>
+		</div>
+		<div class="cont_one">
+				<a href="#">
+					<img src="img/t1.png"/>
+				</a>
+				<a href="#">
+					<img src="img/t2.png"/>
+				</a>
+				<a href="#">
+					<img src="img/t1.png"/>
+				</a>
+				<a href="#">
+					<img src="img/t2.png"/>
+				</a>
+				<a href="#">
+					<img src="img/t1.png"/>
+				</a>
+				<a href="#">
+					<img src="img/t2.png"/>
+				</a>
+			</div>	
+	</section>
+<!-- footer -->
+	<footer>
+		<a href="../zhuye/index.html"><img src="img/f1.png" alt=""><span>首页</span></a>
+		<a href="../faxian/faxian.html"><img src="img/f2.png" alt=""><span>发现</span></a>
+		<a href="vip.html"><img src="img/f3-a.png" alt=""><span style="color: #2692ff;">VIP会员</span></a>
+		<a href="../xinqiu/xiqiu.html"><img src="img/f4.png" alt=""><span>星球</span></a>
+		<a href="../my/my.html"><img src="img/f5.png" alt=""><span>我的</span></a>
+	</footer>
+</body>
+<script src="js/swiper.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    autoplay: {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>
+</html>
